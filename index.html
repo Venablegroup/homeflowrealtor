@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HomeFlowRealtor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">HomeFlowRealtor</div>
+    <nav class="nav">
+      <a href="#listings">Listings</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="tag">Modern Real Estate</p>
+        <h1>Find your next home with confidence.</h1>
+        <p>Elegant, simple, and organized real estate marketing for buyers and sellers.</p>
+        <div class="actions">
+          <a class="btn primary" href="#listings">View Listings</a>
+          <a class="btn secondary" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="listings" class="section">
+      <h2>Featured Listings</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Modern Condo</h3>
+          <p>Jersey City · 2 bed · 2 bath</p>
+        </article>
+        <article class="card">
+          <h3>Luxury Townhome</h3>
+          <p>Hoboken · 3 bed · 3 bath</p>
+        </article>
+        <article class="card">
+          <h3>Family Home</h3>
+          <p>Montclair · 4 bed · 3 bath</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About HomeFlowRealtor</h2>
+      <p>We provide clear communication, polished marketing, and a smooth client experience.</p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="Your name" required />
+        <input type="email" placeholder="Your email" required />
+        <textarea placeholder="Tell us about your property needs" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 HomeFlowRealtor</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
